@@ -1,0 +1,94 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.parent
+{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height: 600px;
+    position: relative;
+}
+
+.parent img
+{
+    width: 700px;
+    position: relative;
+    left: 150px;
+}
+
+.parent h1
+{
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 1000px;
+}
+
+.parent p
+{
+    color: #777;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    left: 1000px;
+    top: 280px;
+}
+
+.parent a
+{
+    background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%) , radial-gradient(circle at top left,#4458dc,#854fee);
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 10px 30px rgba(118,85,225,.3);
+    border-color: transparent;
+    border-width: 2px;
+    border-style: outset;
+    transition: ease-in-out .2s;
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+    
+}
+
+.parent a span
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 16px;
+
+}
+
+
+.parent a:hover
+{
+    background-image: url(img/bg.PNG);
+   
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 10px 30px rgba(118,85,225,.3);
+    border-width: 2px;
+
+    border-color: #854fee;
+    
+}
